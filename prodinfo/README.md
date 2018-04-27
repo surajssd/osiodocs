@@ -10,3 +10,14 @@
 * There are other artifacts and configurations of the services we consume like Mattermost, Sentry, etc. from outside in the organization [rhdt](https://github.com/rhdt).
 
 * More info about the images and transformation from CentOS to RHEL can be found in openshiftio/openshift.io #3321
+
+
+### No. of clusters that we have
+
+* All the applications that form OSIO are hosted on [DSAAS cluster](http://console.dsaas.openshift.com/console/) which is a dedicated OpenShift cluster and is prod environment for OSIO.
+
+* All the user applications are deployed on OpenShift online clusters which are called 1A, 1B, 2, 2A.
+
+* And the prod preview is hosted on [RH-IDEV](https://console.rh-idev.openshift.com/console/).
+
+* All the user applications are deployed on OpenShift online clusters which are called Free-stg, 2A.

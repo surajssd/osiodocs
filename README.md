@@ -4,3 +4,4 @@
 
 * [Production info](./prodinfo)
 * [Monitoring](./monitoring)
+* [Generic things](./generic-things)
