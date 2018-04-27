@@ -12,7 +12,7 @@
 * More info about the images and transformation from CentOS to RHEL can be found in openshiftio/openshift.io #3321
 
 
-### No. of clusters that we have
+### Various OpenShift clusters that form OSIO
 
 * All the applications that form OSIO are hosted on [DSAAS cluster](http://console.dsaas.openshift.com/console/) which is a dedicated OpenShift cluster and is prod environment for OSIO.
 
@@ -21,3 +21,14 @@
 * And the prod preview is hosted on [RH-IDEV](https://console.rh-idev.openshift.com/console/).
 
 * All the user applications are deployed on OpenShift online clusters which are called Free-stg, 2A.
+
+
+### DSAAS in depth
+
+* DSAAS is composed of three parts viz. OSIO, Analytics, Launcher.
+
+* All the services that form OSIO viz. Auth, WIT, Tenant, etc are running under OSIO.
+
+* Launcher a.k.a. getting started experience is taken care of by middleware team.
+
+* [Github repository](https://github.com/openshiftio/saas-openshiftio) for DSAAS.
