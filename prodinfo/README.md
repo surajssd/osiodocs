@@ -11,6 +11,8 @@
 
 * More info about the images and transformation from CentOS to RHEL can be found in openshiftio/openshift.io #3321
 
+* All the images that are built and consumed are hosted in a [devshift docker registry](prod.registry.devshift.net).
+
 
 ### Various OpenShift clusters that form OSIO
 

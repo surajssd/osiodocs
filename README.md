@@ -6,3 +6,4 @@
 * [Monitoring](./monitoring)
 * [Generic things](./generic-things)
 * [Auth](./auth)
+* [Tenant](./tenant)
